@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "StrmlyApp",
+    "slug": "StrmlyApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "plugins": [
+      "expo-web-browser"
+    ],
+    "android": {
+      "package": "com.anonymous.StrmlyApp"
+    }
+  }
+}
