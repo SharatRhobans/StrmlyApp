@@ -1,4 +1,3 @@
-// screens/VideoFeedScreen.js
 import React, { useState, useRef } from 'react';
 import { View, FlatList, Dimensions } from 'react-native';
 import { videos } from '../components/sampleVideos';
@@ -17,7 +16,7 @@ export default function VideoFeedScreen() {
 
   const viewConfigRef = useRef({ viewAreaCoveragePercentThreshold: 80 });
 
-  const isFocused = useIsFocused(); // ✅ Track if screen is active
+  const isFocused = useIsFocused(); 
 
   return (
     <View style={{ flex: 1 }}>
@@ -26,7 +25,7 @@ export default function VideoFeedScreen() {
         renderItem={({ item, index }) => (
           <VideoCard
             video={item}
-            isActive={index === currentIndex && isFocused} // ✅ Play only when visible AND screen is focused
+            isActive={index === currentIndex && isFocused} 
           />
         )}
         keyExtractor={(item) => item.id}
