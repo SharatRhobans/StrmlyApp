@@ -1,4 +1,3 @@
- // navigation/BottomTabs.js
 import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import VideoFeedScreen from '../screens/VideoFeedScreen';
