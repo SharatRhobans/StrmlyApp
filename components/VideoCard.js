@@ -1,4 +1,3 @@
-// components/VideoCard.js
 import React, { useState } from 'react';
 import {
   View,
@@ -14,7 +13,7 @@ import { FontAwesome } from '@expo/vector-icons';
 const { height, width } = Dimensions.get('window');
 
 export default function VideoCard({ video, isActive }) {
-  const [isMuted, setIsMuted] = useState(false); // 🔊 Default sound ON
+  const [isMuted, setIsMuted] = useState(false); 
   const [liked, setLiked] = useState(false);
   const [likes, setLikes] = useState(0);
 
